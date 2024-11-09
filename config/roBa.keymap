@@ -101,7 +101,7 @@
             bindings = <
 &kp F1     &kp F2           &kp F3         &kp F4             &kp LEFT_BRACE                    &kp F6     &kp F7      &kp F8         &kp F9    &kp F10
 &kp F5     &kp EXCLAMATION  &kp AMPERSAND  &kp QUESTION       &kp LPAR        &trans    &trans  &kp UNDER  &mkp MB1    &kp PAGE_UP    &mkp MB2  &kp COLON
-&kp TILDE  &kp PERCENT      &kp SQT        &kp DOUBLE_QUOTES  &kp PIPE        &trans    &trans  &kp AT     &kp DOLLAR  &kp PAGE_DOWN  &trans    &kp F11
+&kp TILDE  &kp PERCENT      &kp SQT        &kp DOUBLE_QUOTES  &kp INT_YEN     &trans    &trans  &kp AT     &kp DOLLAR  &kp PAGE_DOWN  &trans    &kp F11
 &kp LCTRL  &kp LEFT_SHIFT   &kp HASH       &trans             &trans          &trans    &trans  &trans                                          &kp F12
             >;
         };
