@@ -49,6 +49,27 @@
             bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
         };
+
+        atai_haritsuke: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(LC(V)) &kp V &kp ENTER>;
+            label = "NEW_MACRO";
+        };
+
+        ketsugou: ketsugou {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(H) &kp M &kp C &kp ENTER>;
+            label = "KETSUGOU";
+        };
+
+        filter: filter {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(A) &kp T>;
+            label = "FILTER";
+        };
     };
 
     behaviors {
@@ -118,7 +139,7 @@
             bindings = <
 &kp LA(F8)  &trans     &trans                 &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)                    &kp TAB  &trans  &trans  &trans  &kp ESCAPE
 &kp LC(P)   &kp LC(X)  &kp LS(LC(SEMICOLON))  &kp LC(MINUS)    &kp LCTRL          &trans    &trans  &trans   &trans  &trans  &trans  &trans
-&kp LC(Y)   &kp LC(C)  &trans                 &trans           &trans             &trans    &trans  &trans   &trans  &trans  &trans  &trans
+&kp LC(Y)   &kp LC(C)  &atai_haritsuke        &trans           &trans             &trans    &trans  &trans   &trans  &trans  &trans  &trans
 &kp LC(Z)   &trans     &trans                 &trans           &trans             &trans    &trans  &trans                           &kp LA(LC(DELETE))
             >;
         };
