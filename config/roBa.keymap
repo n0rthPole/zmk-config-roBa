@@ -90,14 +90,15 @@
             tapping-term-ms = <200>;
         };
 
-         scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
+        scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
+
             // 追加: スクロールのタップ時間を設定 (20ms)
+
             tap-ms = <20>;
         };
-        
     };
 
     keymap {
@@ -105,15 +106,14 @@
 
         default_layer {
             bindings = <
-&lt_to_layer_0 6 Q  &kp W         &kp E         &kp R                      &kp T                                                         &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A               &kp S         &kp D         &kp F                      &kp G        &none                             &none          &kp H        &kp J  &kp K      &kp L    &kp MINUS
-&mt LEFT_SHIFT Z    &kp X         &kp C         &kp V                      &kp B        &kp LG(S)                         &none          &kp N        &kp M  &kp COMMA  &kp DOT  &mt LEFT_SHIFT SLASH
-&kp LCTRL           &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT LANG_HANJA  &lt 1 SPACE  &lt_to_layer_0 5 LANG_HIRAGANA    &kp BACKSPACE  &lt 2 ENTER                             &kp LCTRL
+&lt_to_layer_0 6 Q  &kp W         &kp E         &kp R                      &kp T                                                 &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&kp A               &kp S         &kp D         &kp F                      &kp G        &none                     &none          &kp H        &kp J  &kp K      &kp L    &kp MINUS
+&mt LEFT_SHIFT Z    &kp X         &kp C         &kp V                      &kp B        &kp LG(S)                 &none          &kp N        &kp M  &kp COMMA  &kp DOT  &mt LEFT_SHIFT SLASH
+&kp LCTRL           &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT LANG_HANJA  &lt 1 SPACE  &lt_to_layer_0 5 LANG4    &kp BACKSPACE  &lt 2 ENTER                             &kp LCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
             sensor-bindings = <&scroll_up_down>;
-
         };
 
         FUNCTION {
