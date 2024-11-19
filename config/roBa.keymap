@@ -118,10 +118,10 @@
 
         FUNCTION {
             bindings = <
-&kp F1         &kp F2           &kp F3            &kp F4            &kp F5                                &kp F6            &kp F7      &kp F8         &kp F9    &kp F10
-&none          &kp EXCLAMATION  &kp LS(NUMBER_6)  &kp QUESTION      &kp LS(NUMBER_8)  &trans    &trans    &kp LEFT_BRACKET  &mkp MB1    &kp PAGE_UP    &mkp MB2  &kp SQT
-&kp LS(EQUAL)  &kp PERCENT      &kp LS(N7)        &kp LS(NUMBER_2)  &none             &trans    &kp BSLH  &kp UNDERSCORE    &kp DOLLAR  &kp PAGE_DOWN  &trans    &kp F11
-&kp LCTRL      &kp LEFT_SHIFT   &kp HASH          &trans            &trans            &trans    &trans    &trans                                                 &kp F12
+&kp F1         &kp F2           &kp F3            &kp F4            &kp F5                                            &kp F6            &kp F7      &kp F8         &kp F9    &kp F10
+&none          &kp EXCLAMATION  &kp LS(NUMBER_6)  &kp QUESTION      &kp LS(NUMBER_8)  &trans    &kp NUBS              &kp LEFT_BRACKET  &mkp MB1    &kp PAGE_UP    &mkp MB2  &kp SQT
+&kp LS(EQUAL)  &kp PERCENT      &kp LS(N7)        &kp LS(NUMBER_2)  &none             &trans    &kp NON_US_BACKSLASH  &kp LS(KP_MINUS)  &kp DOLLAR  &kp PAGE_DOWN  &trans    &kp F11
+&kp LCTRL      &kp LEFT_SHIFT   &kp HASH          &trans            &trans            &trans    &trans                &trans                                                 &kp F12
             >;
         };
 
