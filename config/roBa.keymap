@@ -119,7 +119,7 @@
         FUNCTION {
             bindings = <
 &kp F1      &kp F2           &kp F3            &kp F4            &kp F5                              &kp F6                &kp F7      &kp F8         &kp F9    &kp F10
-&none       &kp EXCLAMATION  &kp LS(NUMBER_6)  &kp QUESTION      &kp LS(NUMBER_8)  &trans    &trans  &kp LEFT_BRACKET      &mkp MB1    &kp PAGE_UP    &mkp MB2  &kp SEMI
+&none       &kp EXCLAMATION  &kp LS(NUMBER_6)  &kp QUESTION      &kp LS(NUMBER_8)  &trans    &trans  &kp LEFT_BRACKET      &mkp MB1    &kp PAGE_UP    &mkp MB2  &kp SQT
 &kp TILDE2  &kp PERCENT      &kp LS(N7)        &kp LS(NUMBER_2)  &none             &trans    &trans  &kp NON_US_BACKSLASH  &kp DOLLAR  &kp PAGE_DOWN  &trans    &kp F11
 &kp LCTRL   &kp LEFT_SHIFT   &kp HASH          &trans            &trans            &trans    &trans  &trans                                                     &kp F12
             >;
@@ -128,7 +128,7 @@
         NUM {
             bindings = <
 &kp TAB           &kp NUMBER_7             &kp NUMBER_8  &kp NUMBER_9  &kp MINUS                               &none             &mkp MB4        &none           &mkp MB5         &kp TAB
-&kp LS(N8)        &kp NUMBER_4             &kp NUMBER_5  &kp NUMBER_6  &kp COLON      &none            &none   &kp LS(NUMBER_9)  &none           &kp UP_ARROW    &none            &none
+&kp LS(N8)        &kp NUMBER_4             &kp NUMBER_5  &kp NUMBER_6  &kp COLON      &none            &none   &kp LS(NUMBER_9)  &none           &kp UP_ARROW    &none            &kp SQT
 &kp SLASH         &kp N1                   &kp NUMBER_2  &kp NUMBER_3  &kp LS(MINUS)  &none            &none   &none             &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_SHIFT
 &mt LCTRL ESCAPE  &mt LEFT_SHIFT NUMBER_0  &kp PERIOD    &kp DELETE    &kp ENTER      &kp BACKSPACE    &trans  &trans                                                             &kp ESCAPE
             >;
