@@ -120,19 +120,19 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &mkp MB1  &none   &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                              &trans
             >;
         };
 
         SCROLL {
             bindings = <
-&kp LA(F8)  &ueno_copy  &kp LC(PAGE_UP)        &kp LC(PAGE_DOWN)  &none                     &kp TAB  &filter  &trans  &trans  &kp ESCAPE
-&kp LC(P)   &kp LC(X)   &kp LS(LC(SEMICOLON))  &kp LC(MINUS)      &none   &trans    &trans  &trans   &trans   &trans  &trans  &trans
-&kp LC(Y)   &kp LC(C)   &atai_haritsuke        &ketsugou          &none   &trans    &trans  &trans   &trans   &trans  &trans  &trans
-&kp LC(Z)   &trans      &trans                 &trans             &trans  &trans    &trans  &trans                            &kp LA(LC(DELETE))
+&kp LA(F8)  &ueno_copy  &none                  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)                    &kp TAB  &filter  &trans  &trans  &kp ESCAPE
+&kp LC(P)   &kp LC(X)   &kp LS(LC(SEMICOLON))  &kp LC(MINUS)    &none              &trans    &trans  &trans   &trans   &trans  &trans  &trans
+&kp LC(Y)   &kp LC(C)   &atai_haritsuke        &ketsugou        &none              &trans    &trans  &trans   &trans   &trans  &trans  &trans
+&kp LC(Z)   &trans      &trans                 &trans           &trans             &trans    &trans  &trans                            &kp LA(LC(DELETE))
             >;
         };
 
