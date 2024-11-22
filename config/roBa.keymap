@@ -79,7 +79,7 @@
 
         default_layer {
             bindings = <
-&lt_to_layer_0 6 Q  &kp W         &kp E         &kp R                      &kp T                                                        &kp Y        &kp U  &lt 5 I    &kp O    &lt 3 P
+&lt_to_layer_0 6 Q  &kp W         &kp E         &kp R                      &kp T                                                        &kp Y        &kp U  &lt 5 I    &lt 3 O  &kp P
 &kp A               &kp S         &kp D         &kp F                      &kp G        &none                            &kp TAB        &kp H        &kp J  &kp K      &kp L    &kp MINUS
 &mt LEFT_SHIFT Z    &kp X         &kp C         &kp V                      &kp B        &kp LG(LS(S))                    &kp DEL        &kp N        &kp M  &kp COMMA  &kp DOT  &mt LEFT_SHIFT SLASH
 &kp LCTRL           &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT LANG_HANJA  &lt 1 SPACE  &lt_to_layer_0 5 LANG_HANGEUL    &kp BACKSPACE  &lt 2 ENTER                             &kp LCTRL
@@ -109,7 +109,7 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                        &trans  &trans  &trans  &trans  &trans
+&kp ESCAPE      &kp LG(LEFT_ARROW)      &kp UP_ARROW    &kp LG(RIGHT_ARROW)      &trans                        &trans  &trans  &trans  &trans  &trans
 &kp LG(HOME)    &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans       &trans  &trans  &trans  &trans  &trans  &trans
 &kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &kp LG(D)    &trans  &trans  &trans  &trans  &trans  &trans
 &trans          &trans                  &trans          &trans                   &trans   &trans       &trans  &trans                          &trans
