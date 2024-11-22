@@ -80,7 +80,7 @@
         default_layer {
             bindings = <
 &lt_to_layer_0 6 Q  &kp W         &kp E         &kp R                      &kp T                                                        &kp Y        &kp U  &lt 5 I    &lt 3 O  &kp P
-&kp A               &kp S         &kp D         &kp F                      &kp G        &none                            &kp TAB        &kp H        &kp J  &kp K      &kp L    &kp MINUS
+&kp A               &kp S         &kp D         &kp F                      &kp G        &none                            &kp TAB        &kp H        &kp J  &kp K      &kp L    &mt LCTRL MINUS
 &mt LEFT_SHIFT Z    &kp X         &kp C         &kp V                      &kp B        &kp LG(LS(S))                    &kp DEL        &kp N        &kp M  &kp COMMA  &kp DOT  &mt LEFT_SHIFT SLASH
 &kp LCTRL           &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT LANG_HANJA  &lt 1 SPACE  &lt_to_layer_0 5 LANG_HANGEUL    &kp BACKSPACE  &lt 2 ENTER                             &kp LCTRL
             >;
@@ -103,7 +103,7 @@
 &kp TAB            &kp NUMBER_7             &kp NUMBER_8  &kp NUMBER_9  &kp MINUS                               &none             &mkp MB4        &none           &mkp MB5         &kp TAB
 &kp DOUBLE_QUOTES  &kp NUMBER_4             &kp NUMBER_5  &kp NUMBER_6  &kp COLON      &none            &none   &kp LS(NUMBER_9)  &none           &kp UP_ARROW    &none            &kp SQT
 &kp SLASH          &kp N1                   &kp NUMBER_2  &kp NUMBER_3  &kp LS(MINUS)  &none            &none   &none             &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_SHIFT
-&mt LCTRL ESCAPE   &mt LEFT_SHIFT NUMBER_0  &kp PERIOD    &kp DELETE    &kp ENTER      &kp BACKSPACE    &trans  &trans                                                             &kp ESCAPE
+&kp ESCAPE         &mt LEFT_SHIFT NUMBER_0  &kp PERIOD    &kp DELETE    &kp ENTER      &kp BACKSPACE    &trans  &trans                                                             &kp ESCAPE
             >;
         };
 
