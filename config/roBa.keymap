@@ -101,7 +101,7 @@
         NUM {
             bindings = <
 &kp ESCAPE         &kp NUMBER_7             &kp NUMBER_8  &kp NUMBER_9  &kp MINUS                               &none             &mkp MB4        &none           &mkp MB5         &kp TAB
-&kp DOUBLE_QUOTES  &kp NUMBER_4             &kp NUMBER_5  &kp NUMBER_6  &kp COLON      &none            &none   &kp LS(NUMBER_9)  &none           &kp UP_ARROW    &none            &kp SQT
+&kp DOUBLE_QUOTES  &kp NUMBER_4             &kp NUMBER_5  &kp NUMBER_6  &kp COLON      &none            &none   &kp LS(NUMBER_9)  &kp LS(TAB)     &kp UP_ARROW    &none            &kp SQT
 &kp SLASH          &kp N1                   &kp NUMBER_2  &kp NUMBER_3  &kp LS(MINUS)  &none            &none   &none             &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_SHIFT
 &mt LCTRL LS(TAB)  &mt LEFT_SHIFT NUMBER_0  &kp PERIOD    &kp DELETE    &kp ENTER      &kp BACKSPACE    &trans  &trans                                                             &kp ESCAPE
             >;
