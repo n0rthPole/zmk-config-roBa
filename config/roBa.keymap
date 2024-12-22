@@ -21,7 +21,7 @@
         to_layer_0: to_layer_0 {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
-            bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
+            bindings = <&to 8 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
         };
 
@@ -78,15 +78,14 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        oonishi_hairetsu {
             bindings = <
-&lt_to_layer_0 6 Q  &kp W         &kp E         &kp R                      &kp T                                                        &kp Y        &kp U  &lt 5 I    &lt 3 O  &kp P
-&kp A               &kp S         &kp D         &kp F                      &kp G        &none                            &kp ESCAPE     &kp H        &kp J  &kp K      &kp L    &mt LCTRL MINUS
-&kp Z               &kp X         &kp C         &kp V                      &kp B        &kp LG(LS(S))                    &kp DEL        &kp N        &kp M  &kp COMMA  &kp DOT  &mt LEFT_SHIFT SLASH
-&kp LCTRL           &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT LANG_HANJA  &lt 1 SPACE  &lt_to_layer_0 5 LANG_HANGEUL    &kp BACKSPACE  &lt 2 ENTER                             &kp LCTRL
+&lt_to_layer_0 6 Q  &kp L         &kp U         &kp COMMA                  &kp DOT                                                      &kp F        &kp W  &lt 5 R  &lt 3 Y  &kp P
+&kp E               &kp I         &kp A         &kp O                      &kp MINUS    &none                            &kp ESCAPE     &kp K        &kp T  &kp N    &kp S    &mt LCTRL H
+&kp Z               &kp X         &kp C         &kp V                      &kp SLASH    &kp LG(LS(S))                    &kp DEL        &kp G        &kp D  &kp M    &kp J    &mt LEFT_SHIFT B
+&kp LCTRL           &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT LANG_HANJA  &lt 1 SPACE  &lt_to_layer_0 5 LANG_HANGEUL    &kp BACKSPACE  &lt 2 ENTER                           &mt LCTRL SLASH
             >;
 
-            sensor-bindings = <&scroll_up_down>;
             sensor-bindings = <&scroll_up_down>;
         };
 
@@ -155,14 +154,15 @@
             >;
         };
 
-        oonishi_hairetsu {
+        default_layer {
             bindings = <
-&lt_to_layer_0 6 Q  &kp L         &kp U         &kp COMMA                  &kp DOT                                                      &kp F        &kp W  &lt 5 R  &lt 3 Y  &kp P
-&kp E               &kp I         &kp A         &kp O                      &kp MINUS    &none                            &kp ESCAPE     &kp K        &kp T  &kp N    &kp S    &mt LCTRL H
-&kp Z               &kp X         &kp C         &kp V                      &kp SLASH    &kp LG(LS(S))                    &kp DEL        &kp G        &kp D  &kp M    &kp J    &mt LEFT_SHIFT B
-&kp LCTRL           &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT LANG_HANJA  &lt 1 SPACE  &lt_to_layer_0 5 LANG_HANGEUL    &kp BACKSPACE  &lt 2 ENTER                           &mt LCTRL SLASH
+&lt_to_layer_0 6 Q  &kp W         &kp E         &kp R                      &kp T                                                        &kp Y        &kp U  &lt 5 I    &lt 3 O  &kp P
+&kp A               &kp S         &kp D         &kp F                      &kp G        &none                            &kp ESCAPE     &kp H        &kp J  &kp K      &kp L    &mt LCTRL MINUS
+&kp Z               &kp X         &kp C         &kp V                      &kp B        &kp LG(LS(S))                    &kp DEL        &kp N        &kp M  &kp COMMA  &kp DOT  &mt LEFT_SHIFT SLASH
+&kp LCTRL           &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT LANG_HANJA  &lt 1 SPACE  &lt_to_layer_0 5 LANG_HANGEUL    &kp BACKSPACE  &lt 2 ENTER                             &kp LCTRL
             >;
 
+            sensor-bindings = <&scroll_up_down>;
             sensor-bindings = <&scroll_up_down>;
         };
     };
