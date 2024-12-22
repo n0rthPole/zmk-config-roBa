@@ -155,7 +155,7 @@
             >;
         };
 
-        layer_8 {
+        oonishi_hairetsu {
             bindings = <
 &lt_to_layer_0 6 Q  &kp L         &kp U         &kp COMMA                  &kp DOT                                                      &kp F        &kp W  &lt 5 R  &lt 3 Y  &kp P
 &kp E               &kp I         &kp A         &kp O                      &kp MINUS    &none                            &kp ESCAPE     &kp K        &kp T  &kp N    &kp S    &mt LCTRL H
