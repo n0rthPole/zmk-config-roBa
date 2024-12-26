@@ -130,10 +130,10 @@
 
         NUM {
             bindings = <
-&kp ESCAPE         &kp N7             &kp N8        &kp N9        &kp MINUS                            &none                  &mkp MB4        &mkp MB3        &mkp MB5         &kp TAB
-&kp DOUBLE_QUOTES  &kp N4             &kp N5        &kp NUMBER_6  &kp COLON  &none              &none  &kp RIGHT_PARENTHESIS  &mkp MB1        &kp UP_ARROW    &mkp MB2         &kp SQT
-&kp SLASH          &kp NUMBER_1       &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &none              &none  &none                  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LWIN
-&mt LCTRL TAB      &mt LEFT_SHIFT N0  &kp DOT       &kp DELETE    &kp ENTER  &kp BACKSPACE      &none  &none                                                                   &kp ESCAPE
+&kp ESCAPE         &kp N7             &kp N8        &kp N9        &kp MINUS                            &none                 &mkp MB4        &mkp MB3        &mkp MB5         &kp TAB
+&kp DOUBLE_QUOTES  &kp N4             &kp N5        &kp NUMBER_6  &kp COLON  &none              &none  &kp LEFT_PARENTHESIS  &mkp MB1        &kp UP_ARROW    &mkp MB2         &kp SQT
+&kp SLASH          &kp NUMBER_1       &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &none              &none  &none                 &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LWIN
+&mt LCTRL TAB      &mt LEFT_SHIFT N0  &kp DOT       &kp DELETE    &kp ENTER  &kp BACKSPACE      &none  &none                                                                  &kp ESCAPE
             >;
         };
 
@@ -159,10 +159,10 @@
 
         SCROLL {
             bindings = <
-&kp LS(F8)  &macro2        &trans            &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)                      &trans  &macro3   &trans  &mkp MB2  &kp ESCAPE
-&kp LC(P)   &kp LC(LA(X))  &kp LS(LC(SEMI))  &kp LC(PERIOD)   &kp LCTRL          &trans      &trans  &trans  &mkp MB1  &trans  &trans    &trans
-&kp LC(Y)   &kp LC(C)      &macro0           &macro1          &trans             &trans      &trans  &trans  &trans    &trans  &trans    &trans
-&kp LC(Z)   &trans         &trans            &trans           &trans             &trans      &trans  &trans                              &kp LA(LC(DELETE))
+&kp LS(F8)  &macro2    &trans            &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)                      &trans  &macro3   &trans  &mkp MB2  &kp ESCAPE
+&kp LC(P)   &kp LC(X)  &kp LS(LC(SEMI))  &kp LC(PERIOD)   &kp LCTRL          &trans      &trans  &trans  &mkp MB1  &trans  &trans    &trans
+&kp LC(Y)   &kp LC(C)  &macro0           &macro1          &trans             &trans      &trans  &trans  &trans    &trans  &trans    &trans
+&kp LC(Z)   &trans     &trans            &trans           &trans             &trans      &trans  &trans                              &kp LA(LC(DELETE))
             >;
         };
 
