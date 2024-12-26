@@ -95,7 +95,7 @@
 &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT LANG_HANJA  &lt 1 SPACE  &lt_to_layer_0 5 LANG_HANGEUL      &kp BACKSPACE  &lt 2 ENTER                             &kp LCTRL
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
         };
 
         FUNCTION {
@@ -105,8 +105,6 @@
 &kp PLUS   &kp PERCENT      &kp AMPERSAND     &kp AT_SIGN   &trans      &trans      &none   &kp LS(INT1)      &kp INT3  &kp PAGE_DOWN  &trans    &kp F11
 &kp LCTRL  &trans           &kp HASH          &trans        &trans      &trans      &trans  &trans                                               &kp F12
             >;
-
-            sensor-bindings = <&scroll_up_down>;
         };
 
         NUM {
