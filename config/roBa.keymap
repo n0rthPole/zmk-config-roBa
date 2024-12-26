@@ -94,6 +94,8 @@
 &kp Z      &kp X         &kp C         &kp V                      &kp B        &kp LG(LS(S))                      &kp DEL        &kp N        &kp M  &kp COMMA  &kp DOT  &mt LEFT_SHIFT SLASH
 &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT LANG_HANJA  &lt 1 SPACE  &lt_to_layer_0 5 LANG_HANGEUL      &kp BACKSPACE  &lt 2 ENTER                             &kp LCTRL
             >;
+
+            sensor-bindings = <&scroll_up_down>;
         };
 
         FUNCTION {
