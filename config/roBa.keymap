@@ -121,19 +121,19 @@
 
         FUNCTION {
             bindings = <
-&kp F1     &kp F2           &kp F3            &kp F4        &trans                          &kp F6        &kp F7         &kp F8         &kp F9    &kp F10
-&kp F5     &kp EXCLAMATION  &kp LS(NUMBER_6)  &kp QUESTION  &kp LS(N8)  &trans      &none   &kp AT        &mkp MB1       &kp PAGE_UP    &mkp MB2  &kp SQT
-&kp PLUS   &kp PERCENT      &kp AMPERSAND     &kp AT_SIGN   &trans      &trans      &none   &kp LS(INT1)  &kp BACKSLASH  &kp PAGE_DOWN  &trans    &kp F11
-&kp LCTRL  &trans           &kp HASH          &trans        &trans      &trans      &trans  &trans                                                &kp F12
+&kp F1     &kp F2           &kp F3            &kp F4        &trans                          &kp F6            &kp F7         &kp F8         &kp F9    &kp F10
+&kp F5     &kp EXCLAMATION  &kp LS(NUMBER_6)  &kp QUESTION  &kp LS(N8)  &trans      &none   &kp LS(NUMBER_2)  &mkp MB1       &kp PAGE_UP    &mkp MB2  &kp SQT
+&kp PLUS   &kp PERCENT      &kp AMPERSAND     &kp AT_SIGN   &trans      &trans      &none   &kp LS(INT1)      &kp BACKSLASH  &kp PAGE_DOWN  &trans    &kp F11
+&kp LCTRL  &trans           &kp HASH          &trans        &trans      &trans      &trans  &trans                                                    &kp F12
             >;
         };
 
         NUM {
             bindings = <
-&kp ESCAPE         &kp N7             &kp N8        &kp N9        &kp MINUS                            &none                 &mkp MB4        &mkp MB3        &mkp MB5         &kp TAB
-&kp DOUBLE_QUOTES  &kp N4             &kp N5        &kp NUMBER_6  &kp COLON  &none              &none  &kp LEFT_PARENTHESIS  &mkp MB1        &kp UP_ARROW    &mkp MB2         &kp SQT
-&kp SLASH          &kp NUMBER_1       &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &none              &none  &none                 &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LWIN
-&mt LCTRL TAB      &mt LEFT_SHIFT N0  &kp DOT       &kp DELETE    &kp ENTER  &kp BACKSPACE      &none  &none                                                                  &kp ESCAPE
+&kp ESCAPE         &kp N7             &kp N8        &kp N9        &kp MINUS                                &none       &mkp MB4        &mkp MB3        &mkp MB5         &kp TAB
+&kp DOUBLE_QUOTES  &kp N4             &kp N5        &kp NUMBER_6  &kp COLON      &none              &none  &kp LS(N9)  &mkp MB1        &kp UP_ARROW    &mkp MB2         &kp SQT
+&kp SLASH          &kp NUMBER_1       &kp NUMBER_2  &kp NUMBER_3  &kp LS(MINUS)  &none              &none  &none       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LWIN
+&mt LCTRL TAB      &mt LEFT_SHIFT N0  &kp DOT       &kp DELETE    &kp ENTER      &kp BACKSPACE      &none  &none                                                        &kp ESCAPE
             >;
         };
 
