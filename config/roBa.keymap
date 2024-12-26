@@ -101,7 +101,7 @@
 
         FUNCTION {
             bindings = <
-&kp F1     &kp F2           &kp F3            &kp F4        &trans                          &kp F6            &kp F7    &kp F8         &kp F9    &kp F10
+&kp F1     &kp F2           &kp F3            &kp F4        &none                           &kp F6            &kp F7    &kp F8         &kp F9    &kp F10
 &kp F5     &kp EXCLAMATION  &kp LS(NUMBER_6)  &kp QUESTION  &kp LS(N8)  &trans      &none   &kp LEFT_BRACKET  &mkp MB1  &kp PAGE_UP    &mkp MB2  &kp SQT
 &kp PLUS   &kp PERCENT      &kp AMPERSAND     &kp AT_SIGN   &trans      &trans      &none   &kp LS(INT1)      &kp INT3  &kp PAGE_DOWN  &trans    &kp F11
 &kp LCTRL  &trans           &kp HASH          &trans        &trans      &trans      &trans  &trans                                               &kp F12
