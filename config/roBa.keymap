@@ -116,10 +116,10 @@
 
         ARROW {
             bindings = <
-&none  &kp LG(LEFT_ARROW)      &kp UP_ARROW    &kp LG(RIGHT_ARROW)      &none                     &trans  &macro3  &trans  &trans  &none
-&none  &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &none  &none      &trans  &trans  &trans   &trans  &trans  &trans
-&none  &kp LS(LG(LEFT_ARROW))  &kp LG(D)       &kp LS(LG(RIGHT_ARROW))  &none  &none      &trans  &trans  &trans   &trans  &trans  &trans
-&none  &none                   &none           &none                    &none  &none      &trans  &trans                           &none
+&none  &kp LG(LEFT_ARROW)      &kp UP_ARROW    &kp LG(RIGHT_ARROW)      &none                     &trans  &trans  &trans  &trans  &none
+&none  &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &none  &none      &trans  &trans  &trans  &trans  &trans  &trans
+&none  &kp LS(LG(LEFT_ARROW))  &kp LG(D)       &kp LS(LG(RIGHT_ARROW))  &none  &none      &trans  &trans  &trans  &trans  &trans  &trans
+&none  &none                   &none           &none                    &none  &none      &trans  &trans                          &none
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
@@ -136,10 +136,10 @@
 
         SCROLL {
             bindings = <
-&kp LS(F8)  &macro2    &trans            &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)                      &trans  &macro3   &trans  &mkp MB2  &kp ESCAPE
-&kp LC(P)   &kp LC(X)  &kp LS(LC(SEMI))  &kp LC(PERIOD)   &kp LCTRL          &trans      &trans  &trans  &mkp MB1  &trans  &trans    &trans
-&kp LC(Y)   &kp LC(C)  &macro0           &macro1          &trans             &trans      &trans  &trans  &trans    &trans  &trans    &trans
-&kp LC(Z)   &trans     &trans            &trans           &trans             &trans      &trans  &trans                              &kp LA(LC(DELETE))
+&kp LS(F8)  &macro2    &trans            &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)                      &trans  &kp LS(LC(L))  &trans  &mkp MB2  &kp ESCAPE
+&kp LC(P)   &kp LC(X)  &kp LS(LC(SEMI))  &kp LC(PERIOD)   &kp LCTRL          &trans      &trans  &trans  &mkp MB1       &trans  &trans    &trans
+&kp LC(Y)   &kp LC(C)  &macro0           &macro1          &trans             &trans      &trans  &trans  &trans         &trans  &trans    &trans
+&kp LC(Z)   &trans     &trans            &trans           &trans             &trans      &trans  &trans                                   &kp LA(LC(DELETE))
             >;
         };
 
