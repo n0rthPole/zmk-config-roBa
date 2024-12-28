@@ -52,13 +52,6 @@
             bindings = <&kp LC(G) &kp LA(S) &kp K &kp ENTER>;
             label = "MACRO2";
         };
-
-        macro3: macro3 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LA(S) &kp T>;
-            label = "MACRO3";
-        };
     };
 
     behaviors {
