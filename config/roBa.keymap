@@ -99,7 +99,7 @@
 
         default_layer {
             bindings = <
-&lt 6 Q    &kp W         &kp E         &kp R                      &kp T                                                          &kp Y        &kp U  &kp I      &lt 3 O  &lt 5 P
+&lt 6 Q    &kp W         &kp E         &kp R                      &kp T                                                          &kp Y        &kp U  &lt 5 I    &lt 3 O  &kp P
 &kp A      &kp S         &kp D         &kp F                      &kp G        &none                              &kp ESCAPE     &kp H        &kp J  &kp K      &kp L    &mt LCTRL MINUS
 &kp Z      &kp X         &kp C         &kp V                      &kp B        &kp LG(LS(S))                      &kp DEL        &kp N        &kp M  &kp COMMA  &kp DOT  &mt LEFT_SHIFT SLASH
 &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT LANG_HANJA  &lt 1 SPACE  &lt_to_layer_0 5 LANG_HANGEUL      &kp BACKSPACE  &lt 2 ENTER                             &kp LCTRL
@@ -148,9 +148,9 @@
 
         SCROLL {
             bindings = <
-&kp LS(F8)  &macro2    &trans            &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)                      &trans  &kp LS(LC(L))  &mkp MB2  &none   &kp ESCAPE
-&kp LC(P)   &kp LC(X)  &kp LS(LC(SEMI))  &kp LC(PERIOD)   &kp LCTRL          &trans      &trans  &trans  &mkp MB1       &trans    &trans  &trans
-&kp LC(Y)   &kp LC(C)  &macro0           &macro1          &trans             &trans      &trans  &trans  &trans         &trans    &trans  &trans
+&kp LS(F8)  &macro2    &trans            &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)                      &trans  &kp LS(LC(L))  &none   &mkp MB2  &kp ESCAPE
+&kp LC(P)   &kp LC(X)  &kp LS(LC(SEMI))  &kp LC(PERIOD)   &kp LCTRL          &trans      &trans  &trans  &mkp MB1       &trans  &trans    &trans
+&kp LC(Y)   &kp LC(C)  &macro0           &macro1          &trans             &trans      &trans  &trans  &trans         &trans  &trans    &trans
 &kp LC(Z)   &trans     &trans            &trans           &trans             &trans      &trans  &trans                                   &kp LA(LC(DELETE))
             >;
         };
