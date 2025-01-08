@@ -20,12 +20,12 @@
 
         Tab {
             bindings = <&kp TAB>;
-            key-positions = <8 7>;
+            key-positions = <7 8>;
         };
 
         shift+tab {
             bindings = <&kp LS(TAB)>;
-            key-positions = <6 7>;
+            key-positions = <20 19>;
         };
     };
 
