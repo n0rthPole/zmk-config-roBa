@@ -25,7 +25,7 @@
 
         shift+tab {
             bindings = <&kp LS(TAB)>;
-            key-positions = <20 19>;
+            key-positions = <6 7 8>;
         };
     };
 
