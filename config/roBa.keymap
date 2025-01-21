@@ -15,8 +15,6 @@
 };
 
 &sl { release-after-ms = <250>; }; // ダブルクリックに必要な時間を設定
-
-
 / {
     combos {
         compatible = "zmk,combos";
@@ -87,7 +85,6 @@
 
             label = "MKP_EXIT_AML";
         };
-
     };
 
     behaviors {
@@ -170,10 +167,10 @@
 
         MOUSE {
             bindings = <
-&trans     &trans  &trans  &trans  &trans                      &trans  &trans    &trans  &trans    &trans
-&trans     &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &trans  &mkp MB2  &trans
-&trans     &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans  &trans    &trans
-&kp LCTRL  &trans  &trans  &trans  &trans  &trans      &trans  &trans                              &trans
+&trans     &trans  &trans  &trans  &trans                      &trans  &trans              &trans  &trans              &trans
+&trans     &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp_exit_AML LCLK  &trans  &mkp_exit_AML RCLK  &trans
+&trans     &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans              &trans  &trans              &trans
+&kp LCTRL  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                  &trans
             >;
         };
 
