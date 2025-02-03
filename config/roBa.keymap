@@ -171,7 +171,7 @@
 
         SCROLL {
             bindings = <
-&kp LS(F8)  &macro2    &trans            &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)                      &macro3  &kp LS(LC(L))  &none          &trans  &kp ESCAPE
+&kp LA(F8)  &macro2    &trans            &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)                      &macro3  &kp LS(LC(L))  &none          &trans  &kp ESCAPE
 &kp LC(P)   &kp LC(X)  &kp LS(LC(SEMI))  &kp LC(MINUS)    &kp LCTRL          &trans      &trans  &trans   &trans         &kp PAGE_UP    &trans  &trans
 &kp LC(Y)   &kp LC(C)  &macro0           &macro1          &trans             &trans      &trans  &trans   &trans         &kp PAGE_DOWN  &trans  &trans
 &kp LC(Z)   &trans     &trans            &trans           &trans             &trans      &trans  &trans                                         &kp LA(LC(DELETE))
