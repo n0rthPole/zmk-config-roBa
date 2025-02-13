@@ -23,3 +23,4 @@ include:
  - board: seeeduino_xiao_ble
    shield: roBa_L  rgbled_adapter
  - board: seeeduino_xiao_ble
+   shield: settings_reset
