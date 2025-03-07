@@ -134,7 +134,7 @@
 &lt 6 Q    &kp W         &kp E         &kp R                      &kp T                                                          &kp Y        &kp U  &lt 5 I    &lt 3 O  &kp P
 &kp A      &kp S         &kp D         &kp F                      &kp G        &msc SCRL_UP                       &kp LC(COLON)  &kp H        &kp J  &kp K      &kp L    &mt LCTRL MINUS
 &kp Z      &kp X         &kp C         &kp V                      &kp B        &msc SCRL_DOWN                     &kp LC(MINUS)  &kp N        &kp M  &kp COMMA  &kp DOT  &mt LEFT_SHIFT SLASH
-&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT LANG_HANJA  &lt 1 SPACE  &lt_to_layer_0 5 LANG_HANGEUL      &kp BACKSPACE  &lt 2 ENTER                             &kp LCTRL
+&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT LANG_HANJA  &lt 1 SPACE  &lt_to_layer_0 5 LANG_HANGEUL      &kp BACKSPACE  &lt 2 ENTER                             &kp ESCAPE
             >;
 
             sensor-bindings = <&scroll_up_down>;
