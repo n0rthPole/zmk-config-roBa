@@ -142,9 +142,9 @@
 
         FUNCTION {
             bindings = <
-&kp F1     &kp F2           &kp F3            &kp F4        &none                                          &kp F6            &kp F7         &kp F8    &kp F9               &kp F10
-&kp F5     &kp EXCLAMATION  &kp LS(NUMBER_6)  &kp QUESTION  &kp LS(N8)  &none       &kp LA(LC(LS(MINUS)))  &kp LEFT_BRACKET  &kp PAGE_UP    &mkp MB1  &mkp MB2             &kp SQT
-&kp PLUS   &kp PERCENT      &kp AMPERSAND     &kp AT_SIGN   &none       &none       &kp LC(LA(MINUS))      &kp LS(INT1)      &kp PAGE_DOWN  &none     &kp INTERNATIONAL_3  &kp F11
+&kp F1     &kp F2           &kp F3            &kp F4        &none                                          &kp F6            &kp F7    &kp F8         &kp F9               &kp F10
+&kp F5     &kp EXCLAMATION  &kp LS(NUMBER_6)  &kp QUESTION  &kp LS(N8)  &none       &kp LA(LC(LS(MINUS)))  &kp LEFT_BRACKET  &mkp MB1  &kp PAGE_UP    &mkp MB2             &kp SQT
+&kp PLUS   &kp PERCENT      &kp AMPERSAND     &kp AT_SIGN   &none       &none       &kp LC(LA(MINUS))      &kp LS(INT1)      &none     &kp PAGE_DOWN  &kp INTERNATIONAL_3  &kp F11
 &kp LCTRL  &kp LEFT_SHIFT   &kp HASH          &trans        &trans      &trans      &trans                 &trans                                                          &kp F12
             >;
         };
@@ -171,9 +171,9 @@
 
         MOUSE {
             bindings = <
-&trans     &trans  &trans  &trans  &trans                      &trans  &trans  &trans              &trans              &trans
-&trans     &trans  &trans  &trans  &trans  &trans      &trans  &trans  &none   &mkp_exit_AML LCLK  &mkp_exit_AML RCLK  &trans
-&trans     &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &none               &none               &trans
+&trans     &trans  &trans  &trans  &trans                      &trans  &trans              &trans  &trans              &trans
+&trans     &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp_exit_AML LCLK  &none   &mkp_exit_AML RCLK  &trans
+&trans     &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans              &none   &none               &trans
 &kp LCTRL  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                  &trans
             >;
         };
