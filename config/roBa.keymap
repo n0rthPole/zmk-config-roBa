@@ -131,10 +131,10 @@
 
         default_layer {
             bindings = <
-&lt 6 Q    &kp W         &kp E         &kp R                      &kp T                                                          &kp Y        &kp U  &lt 5 I    &lt 3 O  &kp P
-&kp A      &kp S         &kp D         &kp F                      &kp G        &none                              &none          &kp H        &kp J  &kp K      &kp L    &mt LCTRL MINUS
-&kp Z      &kp X         &kp C         &kp V                      &kp B        &none                              &none          &kp N        &kp M  &kp COMMA  &kp DOT  &mt LEFT_SHIFT SLASH
-&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT LANG_HANJA  &lt 1 SPACE  &lt_to_layer_0 5 LANG_HANGEUL      &kp BACKSPACE  &lt 2 ENTER                             &kp ESCAPE
+&lt 6 Q    &kp W         &kp E         &kp R                      &kp T                                                              &kp Y        &kp U  &lt 5 I    &lt 3 O  &kp P
+&kp A      &kp S         &kp D         &kp F                      &kp G        &none                              &kp RIGHT_BRACKET  &kp H        &kp J  &kp K      &kp L    &mt LCTRL MINUS
+&kp Z      &kp X         &kp C         &kp V                      &kp B        &none                              &kp BSLH           &kp N        &kp M  &kp COMMA  &kp DOT  &mt LEFT_SHIFT SLASH
+&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT LANG_HANJA  &lt 1 SPACE  &lt_to_layer_0 5 LANG_HANGEUL      &kp BACKSPACE      &lt 2 ENTER                             &kp ESCAPE
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -142,10 +142,10 @@
 
         FUNCTION {
             bindings = <
-&kp F1     &kp F2           &kp F3            &kp F4        &none                                      &kp F6            &kp F7    &kp F8         &kp F9               &kp F10
-&kp F5     &kp EXCLAMATION  &kp LS(NUMBER_6)  &kp QUESTION  &kp LS(N8)  &none       &kp RIGHT_BRACKET  &kp LEFT_BRACKET  &mkp MB1  &kp PAGE_UP    &mkp MB2             &kp SQT
-&kp PLUS   &kp PERCENT      &kp AMPERSAND     &kp AT_SIGN   &none       &none       &kp BSLH           &kp LS(INT1)      &none     &kp PAGE_DOWN  &kp INTERNATIONAL_3  &kp F11
-&kp LCTRL  &kp LEFT_SHIFT   &kp HASH          &trans        &trans      &trans      &trans             &trans                                                          &kp F12
+&kp F1     &kp F2           &kp F3            &kp F4        &none                           &kp F6            &kp F7    &kp F8         &kp F9               &kp F10
+&kp F5     &kp EXCLAMATION  &kp LS(NUMBER_6)  &kp QUESTION  &kp LS(N8)  &none       &none   &kp LEFT_BRACKET  &mkp MB1  &kp PAGE_UP    &mkp MB2             &kp SQT
+&kp PLUS   &kp PERCENT      &kp AMPERSAND     &kp AT_SIGN   &none       &none       &none   &kp LS(INT1)      &none     &kp PAGE_DOWN  &kp INTERNATIONAL_3  &kp F11
+&kp LCTRL  &kp LEFT_SHIFT   &kp HASH          &trans        &trans      &trans      &trans  &trans                                                          &kp F12
             >;
         };
 
