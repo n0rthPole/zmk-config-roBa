@@ -156,6 +156,8 @@
 &kp SLASH          &kp NUMBER_1       &kp NUMBER_2  &kp NUMBER_3  &kp LS(MINUS)  &kp LS(LCTRL)      &none  &kp LC(HOME)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(END)
 &mt LCTRL COMMA    &mt LEFT_SHIFT N0  &kp DOT       &kp DELETE    &kp ENTER      &kp BACKSPACE      &none  &none                                                          &kp ESCAPE
             >;
+
+            sensor-bindings = <&scroll_up_down>;
         };
 
         ARROW {
@@ -165,8 +167,6 @@
 &trans        &kp LS(LG(LEFT_ARROW))  &kp LG(D)               &kp LS(LG(RIGHT_ARROW))  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans        &trans                  &trans                  &trans                   &trans  &trans      &trans  &trans                          &trans
             >;
-
-            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
         };
 
         MOUSE {
