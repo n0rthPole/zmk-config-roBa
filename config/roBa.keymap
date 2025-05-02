@@ -37,6 +37,11 @@
             bindings = <&kp LS(LG(S))>;
             key-positions = <3 4 2>;
         };
+
+        layer3 {
+            bindings = <&sl 3>;
+            key-positions = <19 20>;
+        };
     };
 
     macros {
