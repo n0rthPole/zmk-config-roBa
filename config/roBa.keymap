@@ -39,7 +39,7 @@
         };
 
         layer3 {
-            bindings = <&sl 3>;
+            bindings = <&sl 2>;
             key-positions = <19 20>;
         };
 
@@ -100,7 +100,7 @@
                 <&macro_release>,
                 <&macro_param_1to1 &mkp MACRO_PLACEHOLDER>,
                 <&macro_tap>,
-                <&sl 4>;
+                <&sl 3>;
 
             label = "MKP_EXIT_AML";
         };
@@ -147,21 +147,12 @@
         default_layer {
             bindings = <
 &lt 6 Q    &kp W         &kp E         &kp R                      &kp T                                                          &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A      &kp S         &kp D         &kp F                      &kp G        &none                              &to 4          &kp H        &kp J  &lt 5 K    &kp L    &mt LCTRL MINUS
+&kp A      &kp S         &kp D         &kp F                      &kp G        &none                              &to 3          &kp H        &kp J  &lt 5 K    &kp L    &mt LCTRL MINUS
 &kp Z      &kp X         &kp C         &kp V                      &kp B        &kp LS(N8)                         &kp LS(N9)     &kp N        &kp M  &kp COMMA  &kp DOT  &mt LEFT_SHIFT SLASH
-&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT LANG_HANJA  &lt 1 SPACE  &lt_to_layer_0 5 LANG_HANGEUL      &kp BACKSPACE  &lt 2 ENTER                             &kp ESCAPE
+&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT LANG_HANJA  &lt 4 SPACE  &lt_to_layer_0 5 LANG_HANGEUL      &kp BACKSPACE  &lt 1 ENTER                             &kp ESCAPE
             >;
 
             sensor-bindings = <&scroll_up_down>;
-        };
-
-        FUNCTION {
-            bindings = <
-&kp F1     &kp F2           &kp F3            &kp F4        &none                                  &kp F6            &kp F7    &kp F8         &kp F9               &kp F10
-&kp F5     &kp EXCLAMATION  &kp LS(NUMBER_6)  &kp QUESTION  &kp RIGHT_BRACKET  &none       &none   &kp LEFT_BRACKET  &mkp MB1  &kp PAGE_UP    &mkp MB2             &kp SQT
-&kp PLUS   &kp PERCENT      &kp AMPERSAND     &kp AT_SIGN   &none              &none       &none   &kp LS(INT1)      &none     &kp PAGE_DOWN  &kp INTERNATIONAL_3  &kp F11
-&kp LCTRL  &kp LEFT_SHIFT   &kp HASH          &trans        &trans             &trans      &trans  &trans                                                          &kp F12
-            >;
         };
 
         NUM {
@@ -189,7 +180,16 @@
 &trans     &trans  &trans  &trans  &trans                           &trans  &trans              &trans  &trans              &trans
 &trans     &trans  &trans  &trans  &trans       &trans      &to 0   &trans  &mkp_exit_AML LCLK  &mo 5   &mkp_exit_AML RCLK  &trans
 &trans     &trans  &trans  &trans  &trans       &trans      &trans  &trans  &trans              &trans  &trans              &trans
-&kp LCTRL  &trans  &trans  &trans  &lt 1 SPACE  &trans      &trans  &trans                                                  &trans
+&kp LCTRL  &trans  &trans  &trans  &lt 5 SPACE  &trans      &trans  &trans                                                  &trans
+            >;
+        };
+
+        FUNCTION {
+            bindings = <
+&kp F1     &kp F2           &kp F3            &kp F4        &none                                  &kp F6            &kp F7    &kp F8         &kp F9               &kp F10
+&kp F5     &kp EXCLAMATION  &kp LS(NUMBER_6)  &kp QUESTION  &kp RIGHT_BRACKET  &none       &none   &kp LEFT_BRACKET  &mkp MB1  &kp PAGE_UP    &mkp MB2             &kp SQT
+&kp PLUS   &kp PERCENT      &kp AMPERSAND     &kp AT_SIGN   &none              &none       &none   &kp LS(INT1)      &none     &kp PAGE_DOWN  &kp INTERNATIONAL_3  &kp F11
+&kp LCTRL  &kp LEFT_SHIFT   &kp HASH          &trans        &trans             &trans      &trans  &trans                                                          &kp F12
             >;
         };
 
