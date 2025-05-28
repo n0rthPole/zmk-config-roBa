@@ -5,8 +5,6 @@
 
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 100
 #define MOUSE 3
-#define SCROLL 5
-#define NUM 1
 
 &mt {
     flavor = "balanced";
