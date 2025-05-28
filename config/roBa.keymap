@@ -38,11 +38,6 @@
             key-positions = <3 4 2>;
         };
 
-        layer2 {
-            bindings = <&sl 2>;
-            key-positions = <19 20>;
-        };
-
         left_click {
             bindings = <&mkp LCLK>;
             key-positions = <18 19>;
@@ -51,6 +46,11 @@
         right_click {
             bindings = <&mkp RCLK>;
             key-positions = <18 20>;
+        };
+
+        layer_2 {
+            bindings = <&sl 2>;
+            key-positions = <19 20>;
         };
     };
 
