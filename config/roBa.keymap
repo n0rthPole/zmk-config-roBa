@@ -172,10 +172,10 @@
 
         FUNCTION {
             bindings = <
-&kp F1     &kp F2           &kp F3            &kp F4        &trans                                         &kp F6            &kp F7    &kp F8         &kp F9               &kp F10
-&kp F5     &kp EXCLAMATION  &kp LS(NUMBER_6)  &kp QUESTION  &kp RIGHT_BRACKET  &sys_reset      &sys_reset  &kp LEFT_BRACKET  &mkp MB1  &kp PAGE_UP    &mkp MB2             &kp SQT
-&kp PLUS   &kp PERCENT      &kp AMPERSAND     &kp AT_SIGN   &none              &none           &none       &kp LS(INT1)      &none     &kp PAGE_DOWN  &kp INTERNATIONAL_3  &kp F11
-&kp LCTRL  &kp LEFT_SHIFT   &kp HASH          &trans        &trans             &trans          &trans      &trans                                                          &kp F12
+&kp F1     &kp F2           &kp F3            &kp F4        &trans                                 &kp F6            &kp F7    &kp F8         &kp F9               &kp F10
+&kp F5     &kp EXCLAMATION  &kp LS(NUMBER_6)  &kp QUESTION  &kp RIGHT_BRACKET  &trans      &trans  &kp LEFT_BRACKET  &mkp MB1  &kp PAGE_UP    &mkp MB2             &kp SQT
+&kp PLUS   &kp PERCENT      &kp AMPERSAND     &kp AT_SIGN   &none              &trans      &trans  &kp LS(INT1)      &none     &kp PAGE_DOWN  &kp INTERNATIONAL_3  &kp F11
+&kp LCTRL  &kp LEFT_SHIFT   &kp HASH          &trans        &trans             &trans      &trans  &trans                                                          &kp F12
             >;
         };
 
